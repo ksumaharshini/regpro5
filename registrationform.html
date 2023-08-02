@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.mywebpage7.com</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .colour {
+            background-color:rgb(171, 45, 45);
+        }
+        .back-img {
+            background: url(regbook.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .center {
+            margin: 0 auto;
+        }
+        </style>
+</head>
+<body class="colour">
+    <form action="https://formspree.io/f/mnqkjvjb" method="post">
+        <img src="swarnandhra-logo.jpg"  width="70%" height="17%">
+        <h1>STUDENT REGISTRATION FORM</h1>
+    <fieldset class="back-img">
+        <legend><h3>Registration Details</h3></legend>
+        <label for="name"><b>First Name</b></label>
+            <input type="text" name="name" required> &nbsp;(max 30 characters a-z and A-Z)
+            <br>
+        <label for="name"><b>Last Name</b></label>
+            <input type="text" name="name" required> &nbsp;(max 30 characters a-z and A-Z)<br>
+        <label for="name"><b>Date Of Birth</b></label>
+        <select name="Birthday_day" id="Birthday_Day">
+            <option value="-1">Day:</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+             
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+             
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+             
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+             
+            <option value="31">31</option>
+            </select>
+            <label for="bdaymonth">Birthday (month and year):</label>
+              <input type="month" id="bdaymonth" name="bdaymonth"><br>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" required>
+                    <label for="password"><b>Password</b></label>
+            <input type="password" name="password" required>
+            <label for="phonenumber"><b>Phone Number</b></label>
+            <input type="tel" name="tel" required />
+            <label for="gender"><b>Gender</b></label>
+                <input type="radio" name="Gender" value="Male" />Male
+                <input type="radio" name="Gender" value="Female" />Female
+                <label for="website">Give your Linkedin website:</label>
+            <input type="url" id="website" name="website">
+            <label for="address">Address:</label>
+            <input type="textarea" name="Address" rows="4" cols="30" required><br>
+            <label for="City"><b>City</b></label>
+            <input type="text" name="City" maxlength="30" />(max 30 characters a-z and A-Z)
+            <label for="country"><b>Country</b></label>
+            <input type="text" name="Country" value="India" />
+            <label for="hobbies"><b>Hobbies</b></label>
+            <input type="checkbox" name="Hobby_Drawing" value="Drawing" />
+            Singing
+            <input type="checkbox" name="Hobby_Singing" value="Singing" />
+            Dancing
+            <input type="checkbox" name="Hobby_Dancing" value="Dancing" />
+            Sketching
+            <input type="checkbox" name="Hobby_Cooking" value="Cooking" />
+            <br />
+            Others
+            <input type="checkbox" name="Hobby_Other" value="Other">
+            <input type="text" name="Other_Hobby" maxlength="30" />
+            <label for="qualification"><b>Qualification</b></label>
+            <table border="2" class="center">
+                <tr>
+                    <th align="center"><b>Sl.No.</b></th>
+                    <th align="center"><b>Qualification</b></th>
+                    <th align="center"><b>Board</b></th>
+                    <td align="center"><b>Percentage</b></td>
+                    <td align="center"><b>Year of Passing</b></td>
+                </tr>
+                <tr>
+                    <td><font color="white">1</font></td>
+                    <td><font color="white">Class X</font> </td>
+                    <td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+                    <td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+                    <td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+                </tr>
+                <tr>
+                    <td><font color="white">2</font></td>
+                    <td><font color="white">Class XII</font></td>
+                    <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+                    <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+                    <td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+                </tr>
+                <tr>
+                    <td><font color="white">3</font></td>
+                    <td><font color="white">Graduation</font></td>
+                    <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+                    <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+                    <td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+                </tr>
+            </table>
+                <label for="vol"><b><font color="white">English Communication Skills :</font></b></label>
+                <input type="range" id="vol" name="vol" min="0" max="100">
+                <label for="course"><font color="white"><b>Courses Applied:</font></b></label>
+                <select name="course" >
+                    <optgroup label="Group">
+                    <option value="">Choose your group</option>
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="ECE">ECE</option>
+                    <option value="AIML">AIML</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="ROBOTICS">ROBOTICS</option>
+            </optgroup>
+            </select><br>
+            <input type="submit" name="submit" required>
+        </select>
+
+            </fieldset>
+            </form>
+            </body></html>
+
+
+
+
+        
